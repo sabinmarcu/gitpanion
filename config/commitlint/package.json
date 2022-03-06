@@ -1,0 +1,10 @@
+{
+  "name": "@gitpanion/commitlint-config",
+  "packageManager": "yarn@3.2.0",
+  "main": "index.js",
+  "dependencies": {
+    "@commitlint/config-conventional": "^16.2.1",
+    "commitlint-plugin-scope-empty-exceptions": "^1.1.0",
+    "commitlint-plugin-workspace-scopes": "^1.1.0"
+  }
+}
