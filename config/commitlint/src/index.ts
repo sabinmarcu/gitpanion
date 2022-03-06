@@ -1,4 +1,6 @@
-module.exports = {
+import type { UserConfig } from '@commitlint/types';
+
+const config: UserConfig = {
   extends: [ 
 		"@commitlint/config-conventional", 
 	],
@@ -15,7 +17,7 @@ module.exports = {
         // This is the only default value baked into the config.
         "chore",
       ],
-    ],
+    ] as any,
 		"scope-enum": [
 			2,
 			'always',
@@ -23,3 +25,5 @@ module.exports = {
 		]
   },
 };
+
+module.exports = config;
