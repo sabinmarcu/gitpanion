@@ -17,5 +17,9 @@
     "postinstall": "husky install",
     "prepack": "pinst --disable",
     "postpack": "pinst --enable"
+  },
+  "dependencies": {
+    "@commitlint/cli": "^16.2.1",
+    "@gitpanion/commitlint-config": "workspace:^"
   }
 }
